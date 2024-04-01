@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #2e2f42;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+
+  line-height: 1.33; /* 133.333% */
+  letter-spacing: 0.96px;
+}
+
+input {
+  padding: 8px;
+  font: inherit;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+a {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+/* task-1 */
+.item {
+  max-width: 392px;
+  background-color: #f6f6fe;
+  padding: 16px 16px 8px 16px;
+  margin: 24px;
+  border-radius: 8px;
+}
+.item h2 {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.item li {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+/* task-2 */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1128px;
+  column-gap: 24px;
+  margin: 0 auto;
+}
+.gallery-item img {
+  width: 360px;
+  height: 300px;
+}
+/* task-3 */
+#name-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+}
+#name-input:hover {
+  border: 1px solid #000;
+}
+#name-input:active {
+  border: 1px solid #808080;
+  outline: none;
+}
+#name-input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+/* task-4 */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin: 0 auto;
+  gap: 8px;
+}
+.login-form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.login-form > button {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+/* task-5 */
+.widget {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.change-color {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.change-color:hover {
+  background: #6c8cff;
+}
+/* task-6 */
+#controls {
+  display: flex;
+  gap: 16px;
+  padding: 32px 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6fe;
+  margin-bottom: 16px;
+}
+#controls input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.create-btn {
+  border-radius: 8px;
+  border: 0;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.create-btn:hover {
+  background: #6c8cff;
+}
+.destroy-btn {
+  border-radius: 8px;
+  border: 0;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.destroy-btn:hover {
+  background: #ff7070;
+}
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  background-color: #f6f6fe;
+}
